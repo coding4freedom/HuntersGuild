@@ -3,7 +3,9 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
+.welcome-panel h1 {
+    font-size: 3rem;
+}
 
 /******************************************
 /* LAYOUT
@@ -16,11 +18,12 @@ main {
     height: 70vh;
 }
 
-.welcome_panel {
+.welcome-panel {
     display: flex;
     flex-direction: column;    
     align-items: center;
     justify-content: center;
+    gap: 8rem;
     height: 50vh;    
 }
 
@@ -31,3 +34,23 @@ main {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.start-btn {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #25d38c;
+    animation: bounce 2s infinite alternate;
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}

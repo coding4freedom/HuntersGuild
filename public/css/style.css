@@ -35,17 +35,20 @@ a {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-     height: 20vh;
-}
+
 
 nav {
      display: flex;
      flex-direction: row;
      justify-content: space-between;
+     align-items: center;
      margin: 2rem 5rem;
-     padding-bottom: .7rem;
+     padding: 0 2rem .7rem 2rem;    
      border-bottom: thin solid #848499;
+}
+
+nav.navbar {
+     margin: 0;
 }
 
 nav ul {
@@ -72,6 +75,14 @@ li a {
      font-size: 1.5rem;
      text-decoration: none;
 }
+
+main {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 93.3vh;
+ }
 
 
 

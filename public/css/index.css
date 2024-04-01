@@ -10,13 +10,6 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-}
 
 .welcome-panel {
     display: flex;
@@ -25,10 +18,6 @@ main {
     justify-content: center;
     gap: 8rem;
     height: 50vh;    
-}
-
-#simulation {
-    display: hidden;
 }
 
 /******************************************

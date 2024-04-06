@@ -4,3 +4,4 @@ fetch('components/gameContent.html')
         document.getElementById('simulation').innerHTML = html;
     })
     .catch(error => console.error('Error fetching content:', error));
+

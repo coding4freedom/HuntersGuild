@@ -20,6 +20,30 @@
     height: 50vh;    
 }
 
+.welcome-panel {
+    display: none;
+}
+
+.sim {
+    display: flex;
+}
+
+.game {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    border: solid green;
+}
+
+.activity, .player-stats {
+    flex-basis: 40%;
+}
+
+.center-display {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/

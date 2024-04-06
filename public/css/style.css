@@ -26,6 +26,7 @@ body {
     font-weight: 500;
     background-color: #121212;
     color: #eee;
+    overflow: hidden;
 }
 
 a {

@@ -35,6 +35,12 @@
     border: solid green;
 }
 
+.top-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .activity, .player-stats {
     flex-basis: 40%;
 }
@@ -43,6 +49,16 @@
     flex-grow: 1;
     display: flex;
     flex-direction: row;
+}
+
+.center-mid-display {
+    display: flex;
+    flex-direction: column;
+}
+
+.entered-name {
+    display: flex;
+    flex-direction: column;
 }
 /******************************************
 /* ADDITIONAL STYLES
